@@ -1,9 +1,5 @@
-# Home Lab
-## Projects  
+# Netdata Monitoring and Logging
 
-Welcome to my page. Here I demonstrate my knowledge of building and securing my home network. During this journey, once everything is all set up and running, I will implement security scans, vulnerability assessments, and real-time attack detection and threat action.
+## Overview
 
-### Please feel free to explore my projects:
-
-- **[Projects](https://github.com/Gaaldaco/Home-Projects/blob/main/Projects.md#ssltls-configuration)
-  
+In this project, I have installed and configured Netdata on all of my computers to monitor and log performance and health metrics. Netdata provides real-time insights into system performance, allowing for proactive management and troubleshooting.

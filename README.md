@@ -16,5 +16,5 @@ Ensure secure communication between clients and the server by implementing SSL/T
 - Achieved an A+ rating on SSL Labs for the domain.
 
 ## Screenshots
-- ![SSL Labs Test Results](https://nextcloud.gahomeserver.duckdns.org/s/S9cfNCBKdfcdag3/preview)
+- ![SSL Labs Test Results](https://drive.google.com/file/d/17tdR-oXmI7IpSnCG-UO3lT6iSDINuruo/view)
 - ![Nginx Configuration](https://nextcloud.gahomeserver.duckdns.org/s/EPCfnS5mdx88Hsz/preview)

@@ -20,7 +20,7 @@ In this project, I have set up a homelab environment that includes:
 - **NetData**: Monitoring & Logging
 
 ![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/bndQsSGdMtYETkB/preview) <!-- Replace with your diagram -->
-mydomain is not the actual domain name of my server due to this being a private home netowrk id like it to stay private. Thank you!
+mydomain is not the actual domain name of my server due to this being a private home netowrk I would like it to stay private. Thank you!
 
 ## Security Analysis Focus
 

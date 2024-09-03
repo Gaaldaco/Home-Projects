@@ -57,7 +57,7 @@ Detailed documentation on the setup, configuration, and maintenance of my homela
 
 Feel free to reach out to me:
 
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/gene-aldaco-47b493191/)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/gene-aldaco-47b493191/)
 - Email: [aldacogene@gmail.com](mailto:aldacogene@gmail.com)
 
 ## Acknowledgements

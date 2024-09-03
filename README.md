@@ -64,9 +64,3 @@ Feel free to reach out to me:
 
 Thank you to all the resources and individuals who have contributed to this project.
 
-## Updates and Blog
-
-Check out the latest updates and blog posts related to my homelab project.
-
-- [Update 1](link-to-update)
-- [Update 2](link-to-update)

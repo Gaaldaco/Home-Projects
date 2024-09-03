@@ -4,17 +4,17 @@ Ensure secure communication between clients and the server by implementing SSL/T
 
 ## Tools Used
 - Let’s Encrypt
-- Nginx
+- Caddy
 
 ## Actions Taken
 - Installed Let’s Encrypt and configured auto-renewal of SSL certificates.
-- Updated Nginx configuration to enforce HTTPS across all services.
+- Updated Caddy configuration to enforce HTTPS across all services.
 - Implemented HTTP Strict Transport Security (HSTS).
 
 ## Results
 - All traffic to Nextcloud and Jellyfin is securely encrypted.
-- Achieved an A+ rating on SSL Labs for the domain.
+- Achieved an A rating on SSL Labs for the domain.
 
 ## Screenshots
 - ![SSL Labs Test Results](https://nextcloud.gahomeserver.duckdns.org/s/6rLx3KxCboooA4W/preview)
-- ![Nginx Configuration](https://nextcloud.gahomeserver.duckdns.org/s/EPCfnS5mdx88Hsz/preview)
+- ![Caddy Configuration](https://nextcloud.gahomeserver.duckdns.org/s/EPCfnS5mdx88Hsz/preview)

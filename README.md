@@ -15,6 +15,9 @@ In this project, I have set up a homelab environment that includes:
 - **Pi-hole**: A network-wide ad blocker.
 - **Collabora Online**: An online office suite.
 - **Caddy**: A Reverse Proxy
+- **Portainer**: Docker Container GUI
+- **TrueNAS**: NAS
+- **NetData**: Monitoring & Logging
 
 ![Homelab Diagram](assets/homelab-diagram.png) <!-- Replace with your diagram -->
 

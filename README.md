@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hi, I'm [Gene], and this is my homelab project. I'm showcasing this project to highlight my skills as a security analyst.
+Hi, I'm Gene, and this is my homelab project. I'm showcasing this project to highlight my skills as a security analyst.
 
 ![Profile Picture](https://nextcloud.gahomeserver.duckdns.org/s/CFB7jxzNkzrafEq/preview) <!-- Replace with your image -->
 

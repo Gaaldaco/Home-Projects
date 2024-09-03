@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # Welcome to My Homelab Project
 
 ## About Me
@@ -18,7 +14,7 @@ In this project, I have set up a homelab environment that includes:
 - **Jellyfin**: A media server for organizing and streaming media.
 - **Pi-hole**: A network-wide ad blocker.
 - **Collabora Online**: An online office suite.
-- **ONLYOFFICE**: A document server for collaborative editing.
+- **Caddy**: A Reverse Proxy
 
 ![Homelab Diagram](assets/homelab-diagram.png) <!-- Replace with your diagram -->
 

@@ -19,7 +19,7 @@ In this project, I have set up a homelab environment that includes:
 - **TrueNAS**: NAS
 - **NetData**: Monitoring & Logging
 
-![Homelab Diagram](assets/homelab-diagram.png) <!-- Replace with your diagram -->
+![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/2AMAbDaAXAi9pEr/preview) <!-- Replace with your diagram -->
 
 ## Security Analysis Focus
 

@@ -1,3 +1,3 @@
-#Installation Instructions
+# Installation Instructions
 
-##Wazuh
+## Wazuh

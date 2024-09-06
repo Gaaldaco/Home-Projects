@@ -10,4 +10,4 @@ Step 1. Make sure you linux system is completely up to date by using apt update 
 
 Step 2. Navigate to the Wazuh website and choose the way you'd like to install Wazuh. Here i will be showing you how I installed it on the host system using Ubunut Lixus
                 
-                (https://documentation.wazuh.com/current/installation-guide/index.html)
+    (https://documentation.wazuh.com/current/installation-guide/index.html)

@@ -14,9 +14,10 @@ Step 2. Navigate to the Wazuh website and choose the way you'd like to install W
 
 Step 3. Run all the commands below to install the Wazuh respitory and confirm connection to the respitory.
 
-Install the GPG key:
+Download the Wazuh installation assistant and the configuration file.
 
-    curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
+    curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh
+    curl -sO https://packages.wazuh.com/4.9/config.yml
     
 Add the repository:
     

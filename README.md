@@ -9,7 +9,7 @@ Hi, I'm Gene, and this is my homelab project. I'm showcasing this project to hig
 ## Project Overview
 
 In this project, I have set up a homelab environment that includes:
-
+- **Nessus**: A Vulnerability Scanner
 - **Nextcloud**: A self-hosted file sync and sharing service.
 - **Jellyfin**: A media server for organizing and streaming media.
 - **Pi-hole**: A network-wide ad blocker & Local DNS.
@@ -17,7 +17,6 @@ In this project, I have set up a homelab environment that includes:
 - **Caddy**: A Reverse Proxy
 - **Portainer**: Docker Container GUI
 - **TrueNAS**: NAS
-- **NetData**: Monitoring & Logging
 
 ![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/bndQsSGdMtYETkB/preview) <!-- Replace with your diagram -->
 mydomain is not the actual domain name of my server due to this being a private home netowrk I would like it to stay private. Thank you!
@@ -30,11 +29,6 @@ Here, I discuss how this project relates to security analysis. This includes:
 - Challenges faced and how they were addressed
 
 ## Portfolio of Work
-
-### Security Audits
-
-- [Audit Report 1]()
-- [Audit Report 2](link-to-report)
 
 ### Vulnerability Assessments
 

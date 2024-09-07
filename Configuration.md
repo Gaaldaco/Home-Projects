@@ -1,7 +1,7 @@
 # Configurations
 ## Table of Contents
 
-- [OS](#operating-systems-used)
+- [OS](#os)
 - [Docker](#docker)
 - [Pihole](#pihole)
 - [Reverse Proxy](#reverse-proxy-ssl)

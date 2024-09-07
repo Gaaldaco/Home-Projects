@@ -6,7 +6,7 @@
 - [Pihole](#pihole)
 - [Reverse Proxy](#reverse-proxy-ssl)
 - [Firewall](#firewall)
-- [vulnerability Scanner](#nessus)
+- [Vulnerability Scanner](#nessus)
 
 
 # OS

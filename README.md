@@ -50,7 +50,7 @@ Here, I discuss how this project relates to security analysis. This includes:
 
 Detailed documentation on the setup, configuration, and maintenance of my homelab:
 
-- [Setup Guide](link-to-guide)
+- [Setup Guide](https://github.com/Gaaldaco/Home-Projects/blob/main/Configuration.md#configurations)
 - [Configuration Files](link-to-files)
 - [Installation Instructions](link-to-instructions)
 

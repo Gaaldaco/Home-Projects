@@ -1,4 +1,17 @@
-# SSL/TLS Configuration
+# Configurations
+## Table of Contents
+
+- [OS](#Operating Systems Used)
+- [Docker]
+- [Pihole]
+- [Reverse Proxy](#Reverse Proxy/ SSL)
+- [Firewall]
+- [Scanner]
+
+
+
+
+# Reverse Proxy/ SSL
 ## Objective
 Ensure secure communication between clients and the server by implementing SSL/TLS encryption.
 

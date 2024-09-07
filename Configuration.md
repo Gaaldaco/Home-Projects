@@ -2,9 +2,10 @@
 ## Table of Contents
 
 - [OS](#os)
-- [Reverse Proxy](#reverse-proxy-ssl)
+- [Caddy Reverse Proxy](#reverse-proxy-ssl)
 - [Docker](#docker)
-- [Vulnerability Scanner](#nessus)
+- [Nessus](#nessus)
+- [Wuzuh](#wazuh) currently in the works
 
 # OS
 

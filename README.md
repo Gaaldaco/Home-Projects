@@ -12,7 +12,7 @@ In this project, I have set up a homelab environment that includes:
 
 - **Nextcloud**: A self-hosted file sync and sharing service.
 - **Jellyfin**: A media server for organizing and streaming media.
-- **Pi-hole**: A network-wide ad blocker.
+- **Pi-hole**: A network-wide ad blocker & Local DNS.
 - **Collabora Online**: An online office suite.
 - **Caddy**: A Reverse Proxy
 - **Portainer**: Docker Container GUI

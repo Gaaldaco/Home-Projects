@@ -91,6 +91,7 @@ The goal of this home lab project is to create a flexible, efficient, and easily
 Overall, using Docker containers in my home lab has significantly improved the efficiency, flexibility, and manageability of my applications, creating a robust and well-organized environment for both personal use and experimentation.
 
 ## Visual Overview
+![Home Lab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/oEaTJb5GPPnKmNs/preview)
 
 # Nessus
 
@@ -145,8 +146,4 @@ Overall, integrating Nessus into my home lab has significantly strengthened my s
 
 ![Nessus Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/ZBrjon9BKwXrToo/preview)
 
-*Insert an image that illustrates your Nessus setup or dashboard here. For example, you might include a screenshot of the Nessus user interface, a sample scan report, or a diagram showing how Nessus fits into your home lab architecture.*
 
-
-
-![Home Lab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/oEaTJb5GPPnKmNs/preview)

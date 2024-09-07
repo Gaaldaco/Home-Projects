@@ -33,7 +33,7 @@ Here, I discuss how this project relates to security analysis. This includes:
 
 ### Security Audits
 
-- [Audit Report 1](https://nextcloud.gahomeserver.duckdns.org/s/Ce7pmGwrXFMb7Lf)
+- [Audit Report 1](https://nextcloud.gahomeserver.duckdns.org/s/Ce7pmGwrXFMb7Lf/download/Home%20Lab_fwelwo.pdf)
 - [Audit Report 2](link-to-report)
 
 ### Vulnerability Assessments

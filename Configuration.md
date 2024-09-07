@@ -144,6 +144,6 @@ Overall, integrating Nessus into my home lab has significantly strengthened my s
 
 ## Visual Overview
 
-![Nessus Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/ZBrjon9BKwXrToo/preview)
+![Nessus Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/mjD4wo25KojXj9S/preview)
 
 

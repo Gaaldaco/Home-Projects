@@ -9,7 +9,9 @@
 - [Scanner](#scanner)
 
 
-
+#OS
+## Operating Systems 
+As a quick overview of the OS's I used, I did a lot of research and found that Ubuntu had everything I needed and what I would be most familiar with. My Lab also includes Freebsd and Windows.
 
 # Reverse Proxy/SSL
 ## Objective
@@ -31,3 +33,5 @@ Ensure secure communication between clients and the server by implementing SSL/T
 ## Screenshots
 - ![SSL Labs Test Results](https://nextcloud.gahomeserver.duckdns.org/s/6rLx3KxCboooA4W/preview)
 - ![Caddy Configuration](https://nextcloud.gahomeserver.duckdns.org/s/EPCfnS5mdx88Hsz/preview)
+
+

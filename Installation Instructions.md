@@ -5,83 +5,66 @@
 ### 1. Prepare the Bootable USB Drive
 
 1. **Download the Ubuntu Server ISO**:
-   - Visit the [Ubuntu Server download page](https://ubuntu.com/download/server) and download the latest ISO file.
+   - Begin by downloading the latest Ubuntu Server ISO from the [Ubuntu Server download page](https://ubuntu.com/download/server).
 
 2. **Create the Bootable USB Drive**:
-   - **On Windows**:
-     1. Download and install [Rufus](https://rufus.ie/).
-     2. Open Rufus and insert your USB drive.
-     3. Select the Ubuntu Server ISO file in Rufus.
-     4. Choose "GPT" or "MBR" partition scheme based on your system's UEFI/BIOS settings.
-     5. Click "Start" and wait for the process to complete.
-
-   - **On macOS**:
-     1. Download and install [balenaEtcher](https://www.balena.io/etcher/).
-     2. Open balenaEtcher and insert your USB drive.
-     3. Select the Ubuntu Server ISO file in balenaEtcher.
-     4. Click "Flash!" and wait for the process to complete.
-
-   - **On Linux**:
-     1. Insert the USB drive and identify its device name (e.g., `/dev/sdX`) using `lsblk` or `fdisk -l`.
-     2. Use the `dd` command to write the ISO to the USB drive:
-        ```bash
-        sudo dd if=/path/to/ubuntu-server.iso of=/dev/sdX bs=4M status=progress
-        ```
-     3. Replace `/path/to/ubuntu-server.iso` with the path to your ISO file and `/dev/sdX` with your USB drive device name.
+   - On a Windows machine, use [Rufus](https://rufus.ie/) to create a bootable USB drive. Follow these steps:
+     1. **Download and Install Rufus**:
+        - Download Rufus and install it.
+     2. **Insert the USB Drive**:
+        - Plug in a USB drive with at least 4GB of capacity.
+     3. **Open Rufus**:
+        - Launch Rufus and select the USB drive from the device list.
+     4. **Select the ISO File**:
+        - Choose the downloaded Ubuntu Server ISO file by clicking the "Select" button next to the “Boot selection” dropdown.
+     5. **Configure Partition Scheme**:
+        - Opt for "GPT" for UEFI systems or "MBR" for BIOS systems, depending on the server’s configuration.
+     6. **Start the Process**:
+        - Click “Start” to create the bootable USB. Confirm any warnings about erasing data on the USB drive and wait for the process to complete.
 
 ### 2. Install Ubuntu Server
 
 1. **Boot from USB Drive**:
-   - Insert the bootable USB drive into the server.
-   - Power on the server and access the BIOS/UEFI settings (usually by pressing a key like F2, F12, DEL, or ESC during startup).
-   - Set the USB drive as the primary boot device.
-   - Save the changes and exit the BIOS/UEFI settings.
+   - Insert the bootable USB drive into the server. Power on the server and access the BIOS/UEFI settings (typically by pressing a key like F2, F12, DEL, or ESC during startup). Set the USB drive as the primary boot device, then save the changes and exit BIOS/UEFI. The server should boot from the USB drive.
 
-2. **Begin Installation**:
-   - The server should boot from the USB drive and start the Ubuntu Server installer.
-   - Follow the on-screen instructions to select language and keyboard layout.
+2. **Start the Ubuntu Installer**:
+   - The Ubuntu Server installer will start. Follow the on-screen prompts to select the preferred language and keyboard layout.
 
-3. **Configure Network**:
-   - When prompted, configure network settings. Ensure your server is connected to the network via Ethernet or Wi-Fi.
-   - You can set up a static IP or use DHCP based on your network configuration.
+3. **Configure Network Settings**:
+   - During the installation, configure the network settings. Ensure the server is connected to the network via Ethernet. Set up either a static IP address or use DHCP based on the network configuration.
 
 4. **Set Up Storage**:
-   - Choose the installation type (e.g., use the entire disk or set up partitions manually).
-   - Select the appropriate disk and partitioning scheme as needed.
+   - Choose the installation type (e.g., use the entire disk or manually set up partitions). Select the appropriate disk and confirm the partitioning scheme as needed.
 
-5. **Set Up User and Password**:
-   - Enter your desired username and password for the system. This user will have sudo privileges.
-   - You may be prompted to set up SSH access; enable it to manage the server remotely.
+5. **Create User and Password**:
+   - Enter a username and password for the system. This user will have sudo privileges. Enable SSH access to facilitate remote management.
 
-6. **Install and Configure Additional Software**:
-   - Choose additional software if needed (e.g., OpenSSH server to allow remote access).
-   - Continue with the installation process. The installer will copy files and configure the system.
+6. **Install Additional Software**:
+   - When prompted, select additional software (e.g., OpenSSH server for remote access). Continue with the installation process as the installer copies files and sets up the system.
 
 7. **Complete Installation**:
-   - Once the installation is complete, you’ll be prompted to remove the USB drive and reboot the server.
-   - The server will boot into Ubuntu Server.
+   - After installation, remove the USB drive and reboot the server. The server will boot into Ubuntu Server.
 
 ### 3. Post-Installation
 
 1. **Access the Server Remotely**:
-   - Find the server’s IP address (check your router’s connected devices list if unsure).
-   - Use SSH to connect to the server from another machine:
+   - Find the server’s IP address by checking the router’s connected devices list. Use SSH from another machine to connect to the server:
      ```bash
      ssh username@server_ip
      ```
-   - Replace `username` with the user you created and `server_ip` with the server’s IP address.
+   - Replace `username` with the user account created and `server_ip` with the server’s IP address.
 
-2. **Update and Upgrade the System**:
-   - Once logged in, update the package list and upgrade installed packages:
+2. **Update and Upgrade**:
+   - Once logged in, run the following commands to update the package list and upgrade installed packages:
      ```bash
      sudo apt update
      sudo apt upgrade
      ```
 
 3. **Install Additional Software**:
-   - Install any additional software or services required for your setup:
+   - Install any additional software or services needed:
      ```bash
      sudo apt install <package_name>
      ```
 
-For detailed configuration and management, refer to the [Ubuntu Server documentation](https://ubuntu.com/server/docs).
+For further details on configuration and management, refer to the [Ubuntu Server documentation](https://ubuntu.com/server/docs).

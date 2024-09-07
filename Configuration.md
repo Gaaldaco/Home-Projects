@@ -13,29 +13,28 @@
 
 ## Overview
 
-In my home lab, I utilize a range of operating systems to support various applications and services. Each OS is selected for its unique strengths and suitability for specific tasks.
+In my home lab, I use a variety of operating systems, each selected for its unique capabilities and suitability for specific roles.
 
 ## Operating Systems Used
 
 ### **Ubuntu Headless Server**
 
-- **Purpose**: Powers backend services and applications, providing a robust and lightweight Linux environment.
-- **Features**: Command-line interface for remote management, strong security, and extensive support for open-source software.
+- **Purpose**: Hosts backend services and applications, providing a lightweight and efficient Linux environment.
+- **Features**: Command-line interface for remote management, robust security, and support for a wide range of open-source tools.
 
 ### **Windows 11 Pro**
 
-- **Purpose**: Serves as the primary desktop environment for daily tasks, development, and administrative work.
-- **Features**: User-friendly interface, advanced productivity tools, and compatibility with a wide range of software.
+- **Purpose**: Functions as the main desktop environment for everyday tasks, development, and system administration.
+- **Features**: User-friendly interface, advanced productivity features, and compatibility with numerous software applications.
 
 ### **FreeBSD**
 
-- **Purpose**: Used for network services and advanced firewall/router configurations, offering stability and performance.
-- **Features**: Advanced networking capabilities, strong security features, and a highly customizable environment.
+- **Purpose**: Operates as a Network Attached Storage (NAS) solution, offering reliable and high-performance storage services.
+- **Features**: Excellent stability, advanced file system capabilities, and strong network performance for managing and accessing stored data.
 
 ## Summary
 
-These operating systems provide a diverse and powerful foundation for my home lab, each fulfilling specific roles and contributing to a well-rounded and efficient setup.
-
+These operating systems form the backbone of my home lab, each tailored to meet specific needs and enhance the overall functionality and efficiency of the setup.
 
 
 # Reverse Proxy SSL

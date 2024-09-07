@@ -5,9 +5,6 @@
 - [Reverse Proxy](#reverse-proxy-ssl)
 - [Docker](#docker)
 - [Vulnerability Scanner](#nessus)
-- [Pihole](#pihole)
-- [Firewall](#firewall)
-
 
 # OS
 

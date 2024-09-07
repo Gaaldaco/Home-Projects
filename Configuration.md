@@ -13,7 +13,7 @@
 ## Operating Systems 
 As a quick overview of the OS's I used, I did a lot of research and found that Ubuntu had everything I needed and what I would be most familiar with. My Lab also includes Freebsd and Windows.
 
-# Reverse Proxy/SSL
+# Reverse Proxy SSL
 ## Objective
 Ensure secure communication between clients and the server by implementing SSL/TLS encryption.
 

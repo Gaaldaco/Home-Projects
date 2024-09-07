@@ -92,4 +92,61 @@ Overall, using Docker containers in my home lab has significantly improved the e
 
 ## Visual Overview
 
+# Home Lab Configuration with Nessus
+
+## Objective
+
+The objective of integrating Nessus into my home lab environment is to enhance network security through comprehensive vulnerability assessment and management. Nessus is used to identify potential security weaknesses, ensuring that all systems and applications are secure from known vulnerabilities. By implementing Nessus, the goals were to achieve:
+
+- **Vulnerability Detection**: To identify and assess vulnerabilities in the network and system configurations.
+- **Risk Management**: To prioritize and address vulnerabilities based on their potential impact and exploitability.
+- **Compliance**: To ensure that systems meet security compliance standards and best practices.
+- **Continuous Monitoring**: To regularly scan and update vulnerability information, maintaining a proactive security posture.
+
+## Tools Used
+
+1. **Nessus**: A widely-used vulnerability scanner that helps identify and assess vulnerabilities across networked systems.
+2. **Docker**: Utilized to deploy Nessus in a containerized environment for ease of management and isolation.
+3. **Nessus Plugins**: Plugins are used within Nessus to detect specific vulnerabilities and configuration issues.
+
+## Actions Taken
+
+1. **Setup Nessus Environment**:
+   - **Deployed Nessus**: Installed Nessus in a Docker container to provide an isolated and manageable environment. Configured necessary networking settings to ensure connectivity.
+   - **Initial Configuration**: Set up Nessus with basic configurations, including user accounts and license activation.
+
+2. **Scan Configuration**:
+   - **Created Scan Policies**: Defined and customized scan policies based on the types of vulnerabilities to be assessed (e.g., network, web applications).
+   - **Scheduled Scans**: Configured scheduled scans to run periodically and continuously monitor network security.
+
+3. **Vulnerability Assessment**:
+   - **Performed Scans**: Executed vulnerability scans on various systems and network segments to identify security weaknesses.
+   - **Analyzed Results**: Reviewed scan results to understand the vulnerabilities found, their severity, and potential impact.
+
+4. **Reporting and Remediation**:
+   - **Generated Reports**: Created detailed reports summarizing scan results, including vulnerabilities detected, risk levels, and recommendations for remediation.
+   - **Addressed Findings**: Prioritized and addressed identified vulnerabilities based on their severity and potential impact on the network.
+
+5. **Continuous Improvement**:
+   - **Updated Plugins**: Regularly updated Nessus plugins to ensure the scanner can detect the latest vulnerabilities.
+   - **Reviewed and Adjusted Scans**: Adjusted scan configurations and policies based on new findings and evolving security needs.
+
+## Results
+
+- **Effective Vulnerability Detection**: Nessus successfully identified vulnerabilities across various systems, providing detailed insights into potential security weaknesses.
+- **Risk Management**: Enabled prioritization of vulnerabilities based on their risk levels, allowing for focused remediation efforts.
+- **Compliance Achievement**: Assisted in meeting security compliance requirements by regularly scanning and addressing vulnerabilities.
+- **Enhanced Security Posture**: Improved overall network security by proactively identifying and mitigating vulnerabilities.
+- **Streamlined Management**: Docker containerization simplified the deployment and management of Nessus, while regular updates and adjustments kept the system current and effective.
+
+Overall, integrating Nessus into my home lab has significantly strengthened my security practices by providing thorough vulnerability assessments and enabling proactive risk management.
+
+## Visual Overview
+
+![Nessus Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/ZBrjon9BKwXrToo/preview)
+
+*Insert an image that illustrates your Nessus setup or dashboard here. For example, you might include a screenshot of the Nessus user interface, a sample scan report, or a diagram showing how Nessus fits into your home lab architecture.*
+
+
+
 ![Home Lab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/oEaTJb5GPPnKmNs/preview)

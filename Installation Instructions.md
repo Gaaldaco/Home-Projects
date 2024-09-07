@@ -177,4 +177,4 @@ For more detailed documentation on each service, refer to their respective offic
 - [Pi-hole](https://pi-hole.net/)
 - [Caddy](https://caddyserver.com/docs/)
 
-docs).
+

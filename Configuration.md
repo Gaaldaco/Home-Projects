@@ -92,7 +92,7 @@ Overall, using Docker containers in my home lab has significantly improved the e
 
 ## Visual Overview
 
-# Home Lab Configuration with Nessus
+# Nessus
 
 ## Objective
 

@@ -67,4 +67,114 @@
      sudo apt install <package_name>
      ```
 
-For further details on configuration and management, refer to the [Ubuntu Server documentation](https://ubuntu.com/server/docs).
+For further details on configuration and management, refer to the [Ubuntu Server documentation](https://ubuntu.com/server/
+
+# Home Lab Docker Setup
+
+## Overview
+
+This section covers the setup of various services in Docker containers and the use of Caddy as a reverse proxy on the host machine.
+
+## Installation and Configuration
+
+### 1. Docker Installation
+
+1. **Install Docker**:
+   - Follow the official [Docker installation guide](https://docs.docker.com/engine/install/) for your operating system to install Docker. 
+
+2. **Install Docker Compose** (optional but recommended):
+   - Docker Compose simplifies the management of multi-container applications. Install it by following the instructions [here](https://docs.docker.com/compose/install/).
+
+### 2. Nessus in Docker
+
+1. **Pull the Nessus Docker Image**:
+   - Use the following command to pull the Nessus image from Docker Hub:
+     ```bash
+     docker pull tenableofficial/nessus
+     ```
+
+2. **Run Nessus Container**:
+   - Start a Nessus container with the following command:
+     ```bash
+     docker run -d --name nessus -p 8834:8834 tenableofficial/nessus
+     ```
+   - Access Nessus via `http://<server_ip>:8834` to complete the setup.
+
+### 3. Portainer
+
+1. **Pull the Portainer Docker Image**:
+   - Fetch the Portainer image:
+     ```bash
+     docker pull portainer/portainer-ce
+     ```
+
+2. **Run Portainer Container**:
+   - Launch Portainer with:
+     ```bash
+     docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+     ```
+   - Access Portainer at `http://<server_ip>:9000` to manage Docker containers.
+
+### 4. Nextcloud AIO in Docker
+
+1. **Pull the Nextcloud AIO Docker Image**:
+   - Retrieve the Nextcloud AIO image:
+     ```bash
+     docker pull nextcloud/all-in-one
+     ```
+
+2. **Run Nextcloud AIO Container**:
+   - Start the Nextcloud AIO container:
+     ```bash
+     docker run -d -p 8080:80 --name nextcloud-aio --restart always nextcloud/all-in-one
+     ```
+   - Access Nextcloud via `http://<server_ip>:8080` and follow the on-screen instructions for setup.
+
+### 5. Pi-hole in Docker
+
+1. **Pull the Pi-hole Docker Image**:
+   - Get the Pi-hole image:
+     ```bash
+     docker pull pihole/pihole
+     ```
+
+2. **Run Pi-hole Container**:
+   - Launch Pi-hole with:
+     ```bash
+     docker run -d -p 80:80 -p 443:443 -p 53:53/tcp -p 53:53/udp --name pihole --restart always -e DNS1=1.1.1.1 -e DNS2=1.0.0.1 -e WEBPASSWORD=yourpassword -v pihole_data:/etc/pihole -v dnsmasq_data:/etc/dnsmasq.d pihole/pihole
+     ```
+   - Access Pi-hole via `http://<server_ip>` to configure DNS and ad-blocking.
+
+### 6. Caddy on the Host Machine
+
+1. **Install Caddy**:
+   - Follow the installation instructions from the [Caddy website](https://caddyserver.com/docs/install) for your operating system.
+
+2. **Configure Caddy**:
+   - Create a `Caddyfile` with your desired configuration. Here’s a basic example:
+     ```text
+     example.com {
+         reverse_proxy /nextcloud http://<server_ip>:8080
+         reverse_proxy /pihole http://<server_ip>:80
+     }
+     ```
+   - Place the `Caddyfile` in `/etc/caddy/Caddyfile` or the appropriate location based on your installation.
+
+3. **Start Caddy**:
+   - Start or restart Caddy to apply the configuration:
+     ```bash
+     sudo systemctl restart caddy
+     ```
+
+## Summary
+
+This setup leverages Docker to run Nessus, Portainer, Nextcloud AIO, and Pi-hole, with Caddy serving as the reverse proxy on the host machine. This configuration ensures a modular, manageable, and accessible home lab environment.
+
+For more detailed documentation on each service, refer to their respective official documentation:
+- [Nessus](https://www.tenable.com/products/nessus)
+- [Portainer](https://www.portainer.io/)
+- [Nextcloud AIO](https://github.com/nextcloud/all-in-one)
+- [Pi-hole](https://pi-hole.net/)
+- [Caddy](https://caddyserver.com/docs/)
+
+docs).

@@ -10,8 +10,33 @@
 
 
 # OS
-## Operating Systems 
-As a quick overview of the OS's I used, I did a lot of research and found that Ubuntu had everything I needed and what I would be most familiar with. My Lab also includes Freebsd and Windows.
+
+## Overview
+
+In my home lab, I utilize a range of operating systems to support various applications and services. Each OS is selected for its unique strengths and suitability for specific tasks.
+
+## Operating Systems Used
+
+### **Ubuntu Headless Server**
+
+- **Purpose**: Powers backend services and applications, providing a robust and lightweight Linux environment.
+- **Features**: Command-line interface for remote management, strong security, and extensive support for open-source software.
+
+### **Windows 11 Pro**
+
+- **Purpose**: Serves as the primary desktop environment for daily tasks, development, and administrative work.
+- **Features**: User-friendly interface, advanced productivity tools, and compatibility with a wide range of software.
+
+### **FreeBSD**
+
+- **Purpose**: Used for network services and advanced firewall/router configurations, offering stability and performance.
+- **Features**: Advanced networking capabilities, strong security features, and a highly customizable environment.
+
+## Summary
+
+These operating systems provide a diverse and powerful foundation for my home lab, each fulfilling specific roles and contributing to a well-rounded and efficient setup.
+
+
 
 # Reverse Proxy SSL
 ## Objective

@@ -9,8 +9,7 @@
 - [Scanner](#scanner)
 
 
-
-#OS
+# OS
 ## Operating Systems 
 As a quick overview of the OS's I used, I did a lot of research and found that Ubuntu had everything I needed and what I would be most familiar with. My Lab also includes Freebsd and Windows.
 

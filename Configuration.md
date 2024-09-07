@@ -90,3 +90,6 @@ The goal of this home lab project is to create a flexible, efficient, and easily
 
 Overall, using Docker containers in my home lab has significantly improved the efficiency, flexibility, and manageability of my applications, creating a robust and well-organized environment for both personal use and experimentation.
 
+## Visual Overview
+
+![Home Lab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/oEaTJb5GPPnKmNs/preview)

@@ -17,7 +17,7 @@ In this project, I have set up a homelab environment that includes:
 - **Portainer**: Docker Container GUI
 - **TrueNAS**: NAS
 
-![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/bndQsSGdMtYETkB/preview) <!-- Replace with your diagram -->
+![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/n8LGHRNM9E7roRk/preview) <!-- Replace with your diagram -->
 
 
 ## Security Analysis Focus

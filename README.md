@@ -38,7 +38,7 @@ Upon reviewing the assessments, it was determined that the Windows machine requi
 
 Currently, all websites utilize self-signed certificates, but the vulnerability persists. It appears that a proper Certificate Authority (CA) may be necessary to fully address these issues. Despite these challenges, the remaining medium- and low-level vulnerabilities are managed, and overall, my home lab is secure and up to date.
 
-[side note my Windows machine changed IP as I updated the ethernet port to 2.5gbe and did not have a static IP set for the new card. Old IP (10.0.0.2) New IP (10.0.0.212)]
+side note my Windows machine changed IP as I updated the ethernet port to 2.5gbe and did not have a static IP set for the new card. Old IP (10.0.0.2) New IP (10.0.0.212)
 ### Incident Responses
 
 - [Incident Report 1](link-to-report)

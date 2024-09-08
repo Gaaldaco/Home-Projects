@@ -33,8 +33,10 @@ Here, I discuss how this project relates to security analysis. This includes:
 
 - [Assessment Report 1](https://nextcloud.gahomeserver.duckdns.org/s/Ce7pmGwrXFMb7Lf/download/Home%20Lab_fwelwo.pdf)
 - [Assessment Report 2](https://nextcloud.gahomeserver.duckdns.org/s/B8xeHA28E6KLrsD/download/Weekly%20scan_jdxv25.pdf)
+  
+Upon reviewing the assessments, it was determined that the Windows machine requires the most attention. Notably, it has several open ports and issues with ICMP that need to be addressed. The other machines in the network have SSL certificate vulnerabilities. Although I am not entirely certain how to resolve these issues at this time, it is worth noting that my reverse proxy is configured to use my CA from Let’s Encrypt, resulting in the primary certificate being used for website navigation.
 
-  With these assesments I found that My windows machine was the one needing the most patching with Ports being open and ICMP being an issue. My other machines have an SSL cert vulnerability that I do not know 100% if I can fix as of yet. My reverse proxy is setup to use my CA from lets encrypt so when navigated to the website uses my primary cert. I hava all websites self signed but it looks like the vulnerabliltiy is still popping up so I would need a CA in order for them to go away. Besides the few medium level and low level vulnerabilities my home lab is secure and up to date.
+Currently, all websites utilize self-signed certificates, but the vulnerability persists. It appears that a proper Certificate Authority (CA) may be necessary to fully address these issues. Despite these challenges, the remaining medium- and low-level vulnerabilities are managed, and overall, my home lab is secure and up to date
 
 ### Incident Responses
 

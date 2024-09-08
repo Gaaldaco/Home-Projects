@@ -46,7 +46,7 @@ Detailed documentation on the setup, configuration, and maintenance of my homela
 
 - [Setup Guide](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md)
 - [Configuration Files](link-to-files)
-- [Installation Instructions](link-to-instructions)
+- [Installation Instructions](https://github.com/Gaaldaco/Home-Projects/blob/main/Installation%20Instructions.md#installing-ubuntu-headless-server-via-bootable-usb)
 
 ## Contact Information
 

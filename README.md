@@ -32,7 +32,7 @@ Here, I discuss how this project relates to security analysis. This includes:
 ### Vulnerability Assessments
 
 - [Assessment Report 1](https://nextcloud.gahomeserver.duckdns.org/s/Ce7pmGwrXFMb7Lf/download/Home%20Lab_fwelwo.pdf)
-- [Assessment Report 2](link-to-report)
+- [Assessment Report 2](https://nextcloud.gahomeserver.duckdns.org/s/B8xeHA28E6KLrsD/download/Weekly%20scan_jdxv25.pdf)
 
 ### Incident Responses
 

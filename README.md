@@ -23,8 +23,8 @@ In this project, I have set up a homelab environment that includes:
 
 ## Reports
 
-[**Vulnerability Reports**](https://github.com/Gaaldaco/Home-Projects/blob/main/Vulnerability%20Assessments.md#vulnerability-assessments)
-[**Incident Report**](https://github.com/Gaaldaco/Home-Projects/blob/main/Incident%20Report.md#incident-report)
+- [**Vulnerability Reports**](https://github.com/Gaaldaco/Home-Projects/blob/main/Vulnerability%20Assessments.md#vulnerability-assessments)
+- [**Incident Report**](https://github.com/Gaaldaco/Home-Projects/blob/main/Incident%20Report.md#incident-report)
 
 
 ## Technical Documentation

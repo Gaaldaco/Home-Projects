@@ -33,8 +33,6 @@ Detailed documentation of my homelab:
 
 - [Setup Guide](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md)
 - [Installation Instructions](https://github.com/Gaaldaco/Home-Projects/blob/main/Installation%20Instructions.md#installing-ubuntu-headless-server-via-bootable-usb)
-- [Vulnerability Assesments]()
-- [Incident Report/ Response]()
 
 ## Contact Information
 

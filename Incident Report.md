@@ -1,4 +1,4 @@
-# Incident Responses
+# Incident Report
 
 Currently, there are no active incident reports due to the absence of a firewall and Wazuh not being operational. However, during the configuration of my reverse proxy, I was actively troubleshooting and monitoring logs in real-time. During this process, I observed a high volume of error responses indicating missing index pages and requests originating from an IP address that I did not recognize as being associated with my home network or known users of my URL.
 

@@ -53,7 +53,6 @@ To enhance security moving forward, I plan to configure Wazuh to perform real-ti
 Detailed documentation on the setup, configuration, and maintenance of my homelab:
 
 - [Setup Guide](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md)
-- [Configuration Files](link-to-files)
 - [Installation Instructions](https://github.com/Gaaldaco/Home-Projects/blob/main/Installation%20Instructions.md#installing-ubuntu-headless-server-via-bootable-usb)
 
 ## Contact Information

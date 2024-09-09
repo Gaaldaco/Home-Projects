@@ -4,7 +4,7 @@
 
 Hi, I'm Gene, and this is my homelab project. I'm showcasing this project to highlight my skills within cyber security.
 
-![Profile Picture](https://nextcloud.gahomeserver.duckdns.org/s/CFB7jxzNkzrafEq/preview) <!-- Replace with your image -->
+![Profile Picture](https://nextcloud.gahomeserver.duckdns.org/s/NZtHZqSqaiwf5dT/preview) <!-- Replace with your image -->
 
 ## Project Overview
 

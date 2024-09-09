@@ -10,7 +10,7 @@ Hi, I'm Gene, and this is my homelab project. I'm showcasing this project to hig
 
 In this project, I have set up a homelab environment that includes:
 - [**Nessus**](
-- [**Docker**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#reverse-proxy-ssl)
+- [**Docker**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#docker)
 - [**Nextcloud**](
 - [**Jellyfin**](
 - [**Collabora Online**](

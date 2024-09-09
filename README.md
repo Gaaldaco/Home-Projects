@@ -9,23 +9,23 @@ Hi, I'm Gene, and this is my homelab project. I'm showcasing this project to hig
 ## Project Overview
 
 In this project, I have set up a homelab environment that includes:
-- **Nessus**: A Vulnerability Scanner
-- **Nextcloud**: A self-hosted file sync and sharing service.
-- **Jellyfin**: A media server for organizing and streaming media.
-- **Collabora Online**: An online office suite.
-- **Caddy**: A Reverse Proxy
-- **Portainer**: Docker Container GUI
-- **TrueNAS**: NAS
+- [**Nessus**](
+- [**Docker**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#reverse-proxy-ssl)
+- [**Nextcloud**](
+- [**Jellyfin**](
+- [**Collabora Online**](
+- [**Caddy**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#reverse-proxy-ssl)
+- [**Portainer**](
+- [**TrueNAS**](
 
 ![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/fkXxtmbxiEdrs27/preview) <!-- Replace with your diagram -->
 
 
-## Security Analysis Focus
+## Reports
 
-Here, I discuss how this project relates to security analysis. This includes:
+[**Vulnerability Reports**](https://github.com/Gaaldaco/Home-Projects/blob/main/Vulnerability%20Assessments.md#vulnerability-assessments)
+[**Incident Report**](https://github.com/Gaaldaco/Home-Projects/blob/main/Incident%20Report.md#incident-report)
 
-- Security measures implemented
-- Challenges faced and how they were addressed
 
 ## Technical Documentation
 

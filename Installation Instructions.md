@@ -130,21 +130,6 @@ This section covers the setup of various services in Docker containers and the u
      ```
    - Access Nextcloud via `http://<server_ip>:8080` and follow the on-screen instructions for setup.
 
-### 5. Pi-hole in Docker
-
-1. **Pull the Pi-hole Docker Image**:
-   - Get the Pi-hole image:
-     ```bash
-     docker pull pihole/pihole
-     ```
-
-2. **Run Pi-hole Container**:
-   - Launch Pi-hole with:
-     ```bash
-     docker run -d -p 80:80 -p 443:443 -p 53:53/tcp -p 53:53/udp --name pihole --restart always -e DNS1=1.1.1.1 -e DNS2=1.0.0.1 -e WEBPASSWORD=yourpassword -v pihole_data:/etc/pihole -v dnsmasq_data:/etc/dnsmasq.d pihole/pihole
-     ```
-   - Access Pi-hole via `http://<server_ip>` to configure DNS and ad-blocking.
-
 ### 6. Caddy on the Host Machine
 
 1. **Install Caddy**:
@@ -174,7 +159,6 @@ For more detailed documentation on each service, refer to their respective offic
 - [Nessus](https://www.tenable.com/products/nessus)
 - [Portainer](https://www.portainer.io/)
 - [Nextcloud AIO](https://github.com/nextcloud/all-in-one)
-- [Pi-hole](https://pi-hole.net/)
 - [Caddy](https://caddyserver.com/docs/)
 
 

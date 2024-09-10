@@ -18,7 +18,7 @@ In this project, I have set up a homelab environment that includes:
 - [**Portainer**](
 - [**TrueNAS**](
 
-![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/fkXxtmbxiEdrs27/preview) <!-- Replace with your diagram -->
+![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/2z2J4sER9EXKM5x/preview) <!-- Replace with your diagram -->
 
 
 ## Reports

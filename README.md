@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hi, I'm Gene, and this is my homelab project. I'm showcasing this project to highlight my skills within cyber security.
+I am deeply passionate about transitioning into cybersecurity, driven by a strong desire to protect digital landscapes and counteract emerging threats. With a solid foundation as a Level 2 IT Technician, I have gained valuable technical insights, which I am eager to expand upon within the cybersecurity domain. As a self-taught enthusiast, I have developed my skills through a variety of hands-on projects and real-world scenarios in my homelab, where I tackle security challenges and implement solutions. My keen interest in security protocols, threat detection, and risk management fuels my ambition to specialize in this critical area. I am committed to continuous learning and professional development, actively seeking opportunities to immerse myself in cybersecurity practices and contribute to safeguarding organizational assets. My goal is to blend my technical acumen with a proactive security mindset to excel in a cybersecurity role, where I can make a significant impact and drive innovative solutions to combat the evolving threat landscape.
 
 ![Profile Picture](https://nextcloud.gahomeserver.duckdns.org/s/NZtHZqSqaiwf5dT/preview) <!-- Replace with your image -->
 

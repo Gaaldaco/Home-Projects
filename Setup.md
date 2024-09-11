@@ -229,7 +229,7 @@ Integrating TrueNAS SCALE into my home lab has significantly improved my data ma
 ![TrueNas Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/XgZ7YoCGE6Tntzf/preview)
 
 
-# Portainer Integration into Home Lab
+# Portainer
 
 ## Project Overview
 
@@ -284,7 +284,7 @@ Integrating Portainer into my home lab has significantly enhanced my ability to 
 ![Portainer](https://nextcloud.gahomeserver.duckdns.org/s/qiT77HtTnR8iLdA/preview)
 
 
-# Jellyfin Integration into Home Lab
+# Jellyfin
 
 ## Project Overview
 
@@ -346,7 +346,7 @@ Integrating Jellyfin into my home lab with Caddy as the reverse proxy has create
 
 ![Jellyfin Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/bGgNJW2GtogJ2Gi/preview)
 
-# Nextcloud Integration into Home Lab
+# Nextcloud
 
 ## Project Overview
 
@@ -405,7 +405,7 @@ Integrating Nextcloud into my home lab has provided a powerful, self-hosted clou
 ![NextCloud Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/zysNyCJfnAPE9gz/preview)
 
 
-# Collabora Integration into Home Lab
+# Collabora
 
 ## Project Overview
 

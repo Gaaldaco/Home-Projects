@@ -169,3 +169,63 @@ Overall, integrating Nessus into my home lab has significantly strengthened my s
 ![Nessus Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/mjD4wo25KojXj9S/preview)
 
 
+# TrueNAS SCALE
+
+## Project Overview
+
+This project involves integrating TrueNAS SCALE into a home lab environment to establish a robust, scalable, and highly available storage solution. The implementation aimed to enhance data management, ensure data protection, and streamline storage operations.
+
+## Objectives
+
+- **Scalable Storage:** Deploy a storage solution that accommodates increasing data needs with flexibility.
+- **Data Protection:** Implement redundancy and snapshot capabilities to safeguard data.
+- **High Availability:** Configure high availability to minimize downtime and ensure continuous data access.
+- **Efficient Management:** Utilize an intuitive interface and automation features for streamlined storage management.
+
+## Tools Used
+
+- **TrueNAS SCALE:** Open-source, Linux-based storage operating system designed for scalability and high availability.
+- **Docker:** For containerizing applications and services, enhancing deployment flexibility.
+- **ZFS:** Advanced filesystem providing data integrity checks, compression, and snapshot features.
+
+## Actions Taken
+
+1. **Setup TrueNAS SCALE Environment:**
+   - **Installation:** Deployed TrueNAS SCALE on dedicated hardware or a virtual machine. Configured initial settings and storage pools.
+   - **Networking:** Set up networking configurations to ensure connectivity and access.
+
+2. **Storage Configuration:**
+   - **Storage Pools:** Created storage pools using ZFS for redundancy and performance.
+   - **RAID Configuration:** Implemented RAID setups to enhance data protection and fault tolerance.
+   - **Snapshots:** Enabled snapshot capabilities for effective data protection and recovery.
+
+3. **Service and Application Management:**
+   - **Docker Containers:** Deployed and managed Docker containers for additional services and applications.
+   - **Network Shares:** Configured network shares (e.g., SMB, NFS) to facilitate data access from various systems.
+
+4. **Data Protection and Backup:**
+   - **Backup Solutions:** Implemented and configured backup strategies using TrueNAS SCALE’s built-in features or external tools.
+   - **Scheduled Backups:** Established regular backup schedules to protect against data loss.
+
+5. **Monitoring and Maintenance:**
+   - **System Health:** Monitored system performance and health using TrueNAS SCALE’s monitoring tools.
+   - **Updates:** Regularly updated TrueNAS SCALE to incorporate new features and security patches.
+
+## Results
+
+- **Scalable Storage Solution:** Successfully deployed a storage system capable of scaling with growing data needs and handling high workloads.
+- **Enhanced Data Protection:** Achieved robust data protection with RAID configurations, snapshots, and regular backups.
+- **High Availability:** Ensured high availability of critical data with minimal downtime and continuous access.
+- **Efficient Management:** Streamlined storage management through TrueNAS SCALE’s user-friendly interface and automation features.
+- **Flexibility and Integration:** Leveraged Docker for deploying and managing applications, enhancing overall functionality.
+
+
+
+Integrating TrueNAS SCALE into my home lab has significantly improved my data management capabilities, providing a reliable, scalable, and efficient storage solution that supports both current and future requirements.
+
+## Visual Overview
+
+![TrueNas Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/XgZ7YoCGE6Tntzf/preview)
+
+
+

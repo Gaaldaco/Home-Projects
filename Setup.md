@@ -229,4 +229,233 @@ Integrating TrueNAS SCALE into my home lab has significantly improved my data ma
 ![TrueNas Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/XgZ7YoCGE6Tntzf/preview)
 
 
+# Portainer Integration into Home Lab
+
+## Project Overview
+
+This project focuses on integrating Portainer into a home lab environment to streamline container management and enhance visibility into Docker deployments. The goal was to simplify container orchestration, improve management efficiency, and provide an intuitive interface for monitoring and controlling Docker containers.
+
+## Objectives
+
+- **Container Management:** Facilitate easy management and orchestration of Docker containers.
+- **User-Friendly Interface:** Provide a web-based GUI for managing containerized applications and services.
+- **Monitoring and Logging:** Enhance visibility into container performance and logs.
+- **Security and Access Control:** Implement role-based access control (RBAC) to manage permissions and ensure secure operations.
+
+## Tools Used
+
+- **Portainer:** A lightweight management UI for Docker environments, offering a simple and intuitive interface for container management.
+- **Docker:** The containerization platform used for deploying and managing applications.
+- **Docker Compose:** Used for defining and running multi-container Docker applications.
+
+## Actions Taken
+
+1. **Setup Portainer Environment:**
+   - **Installed Portainer:** Deployed Portainer as a Docker container, setting it up on the same Docker host or a separate management server.
+   - **Initial Configuration:** Configured Portainer with basic settings, including admin user accounts and connection settings for Docker.
+
+2. **Container Management:**
+   - **Connected Docker Environments:** Linked Portainer to existing Docker environments for centralized management.
+   - **Created and Managed Containers:** Used Portainer’s UI to deploy, start, stop, and manage Docker containers.
+
+3. **Monitoring and Logging:**
+   - **View Container Metrics:** Monitored container performance metrics and resource usage through Portainer’s dashboard.
+   - **Access Logs:** Utilized Portainer to view and analyze container logs for troubleshooting and performance tuning.
+
+4. **Security and Access Control:**
+   - **Configured User Roles:** Set up role-based access control (RBAC) to manage user permissions and ensure secure access to container management features.
+   - **Secured Portainer Access:** Implemented SSL/TLS for secure communication with the Portainer interface.
+
+5. **Continuous Improvement:**
+   - **Updated Portainer:** Regularly updated Portainer to incorporate new features, security patches, and performance improvements.
+   - **Refined Configuration:** Adjusted Portainer configurations based on user feedback and evolving management needs.
+
+## Results
+
+- **Streamlined Container Management:** Simplified the process of deploying, managing, and monitoring Docker containers with Portainer’s intuitive UI.
+- **Enhanced Visibility:** Improved visibility into container performance and logs, facilitating easier troubleshooting and performance optimization.
+- **Effective Security Controls:** Implemented robust role-based access controls and secured Portainer access to ensure safe and controlled container management.
+- **Efficient Operations:** Increased operational efficiency with centralized management and automation features provided by Portainer.
+
+
+Integrating Portainer into my home lab has significantly enhanced my ability to manage Docker containers, providing a user-friendly interface and comprehensive tools for monitoring and controlling containerized applications. This setup has streamlined container operations and improved overall management efficiency.
+
+## Visual Overview
+![Portainer](https://nextcloud.gahomeserver.duckdns.org/s/qiT77HtTnR8iLdA/preview)
+
+
+# Jellyfin Integration into Home Lab
+
+## Project Overview
+
+This project involves integrating Jellyfin into a home lab environment to create a personal media server for streaming and managing a diverse collection of media content. Jellyfin is deployed behind a Caddy reverse proxy to provide secure and accessible media streaming.
+
+## Objectives
+
+- **Media Streaming:** Establish a server for streaming movies, TV shows, music, and other media to various devices.
+- **Media Management:** Organize and manage a comprehensive media library with support for metadata and artwork.
+- **User Access:** Implement user access controls and profiles for personalized media experiences.
+- **Security and Accessibility:** Use Caddy as a reverse proxy to securely expose Jellyfin to the internet with automated SSL/TLS.
+
+## Tools Used
+
+- **Jellyfin:** Open-source media server software for streaming and managing personal media collections.
+- **Docker:** Deployed Jellyfin in a containerized environment for ease of management and isolation.
+- **Caddy:** Reverse proxy server used to handle SSL/TLS encryption and route traffic to Jellyfin.
+- **Docker Compose:** Used to define and manage multi-container Docker applications, including Jellyfin and Caddy.
+
+## Actions Taken
+
+1. **Setup Jellyfin Environment:**
+   - **Installed Jellyfin:** Deployed Jellyfin using Docker, configuring the container with necessary settings for media library paths and network configurations.
+   - **Initial Configuration:** Set up Jellyfin’s basic settings, including media library locations and user accounts.
+
+2. **Configure Caddy Reverse Proxy:**
+   - **Installed Caddy:** Deployed Caddy using Docker, configuring it as a reverse proxy to handle incoming requests for Jellyfin.
+   - **TLS Configuration:** Configured Caddy to automatically manage SSL/TLS certificates, ensuring secure access to the Jellyfin server.
+   - **Proxy Rules:** Set up Caddy to route traffic to the Jellyfin container, handling domain and port routing.
+
+3. **Media Library Management:**
+   - **Added Media:** Imported and organized media files into Jellyfin, including movies, TV shows, and music.
+   - **Metadata Configuration:** Set up metadata and artwork fetching to enhance the presentation of media content.
+
+4. **User Access and Customization:**
+   - **User Profiles:** Created user profiles and permissions for personalized media experiences and parental controls.
+   - **Plugins and Customizations:** Installed and configured Jellyfin plugins to extend functionality and customize the user interface.
+
+5. **Security and Monitoring:**
+   - **Secure Access:** Ensured secure access to Jellyfin through Caddy’s automated SSL/TLS management.
+   - **Performance Monitoring:** Monitored server performance and adjusted configurations for optimal media streaming quality.
+
+6. **Continuous Improvement:**
+   - **Update and Maintenance:** Regularly updated Jellyfin and Caddy to incorporate new features, security patches, and performance enhancements.
+   - **Optimization:** Refined settings and configurations based on performance metrics and user feedback.
+
+## Results
+
+- **Reliable Media Streaming:** Successfully deployed a media server that streams a wide range of content to various devices.
+- **Organized Media Library:** Effectively managed and organized a media library with rich metadata and artwork.
+- **Secure and Accessible:** Ensured secure and reliable access to Jellyfin through Caddy’s automated SSL/TLS and reverse proxy capabilities.
+- **Enhanced User Experience:** Provided a personalized media experience with user profiles and customizable settings.
+- **Efficient Management:** Streamlined deployment and management with Docker and Docker Compose.
+
+
+Integrating Jellyfin into my home lab with Caddy as the reverse proxy has created a powerful and secure media server solution. The setup offers efficient management, secure access, and a customizable platform for enjoying a vast media library, tailored to individual needs and preferences.
+
+## Visual Overview
+
+![Jellyfin Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/bGgNJW2GtogJ2Gi/preview)
+
+# Nextcloud Integration into Home Lab
+
+## Project Overview
+
+This project involves integrating Nextcloud into a home lab environment to create a self-hosted cloud storage solution. The goal was to set up a private cloud for file synchronization, sharing, and collaboration, with a focus on security and accessibility.
+
+## Objectives
+
+- **File Synchronization:** Establish a platform for syncing and accessing files across multiple devices.
+- **File Sharing:** Enable secure file sharing and collaboration features for users.
+- **User Management:** Implement user accounts and permissions to manage access and collaboration.
+- **Security and Backup:** Ensure data security and regular backups to protect against data loss.
+
+## Tools Used
+
+- **Nextcloud:** Open-source cloud storage software for file synchronization, sharing, and collaboration.
+- **Docker:** Deployed Nextcloud in a containerized environment for ease of management and isolation.
+- **Database (e.g., MariaDB):** Used to manage Nextcloud’s data and metadata.
+- **Reverse Proxy (e.g., Caddy or Nginx):** Configured to handle SSL/TLS termination and route traffic to the Nextcloud server.
+
+## Actions Taken
+
+1. **Setup Nextcloud Environment:**
+   - **Installed Nextcloud:** Deployed Nextcloud using Docker, configuring it with necessary settings for file storage and network access.
+   - **Database Configuration:** Set up a MariaDB container to manage Nextcloud’s database, ensuring proper integration with Nextcloud.
+
+2. **Configure Reverse Proxy:**
+   - **Installed Reverse Proxy:** Deployed and configured a reverse proxy (e.g., Caddy or Nginx) to handle external access to Nextcloud.
+   - **TLS Configuration:** Enabled automated SSL/TLS management to secure communication between clients and Nextcloud.
+   - **Proxy Rules:** Set up proxy rules to route traffic to the Nextcloud container, managing domain and port routing.
+
+3. **User and File Management:**
+   - **User Accounts:** Created user accounts and configured permissions for file access and collaboration.
+   - **File Synchronization:** Set up synchronization clients on various devices to ensure seamless file access and updates.
+
+4. **Security and Backup:**
+   - **Security Measures:** Implemented security best practices, including strong authentication, encryption, and access controls.
+   - **Backup Strategy:** Configured regular backups of Nextcloud data and database to prevent data loss.
+
+5. **Continuous Improvement:**
+   - **Update and Maintenance:** Regularly updated Nextcloud and related components to incorporate new features, security patches, and performance improvements.
+   - **Performance Monitoring:** Monitored server performance and adjusted configurations to optimize Nextcloud’s functionality and user experience.
+
+## Results
+
+- **Efficient File Synchronization:** Successfully established a cloud platform for syncing and accessing files across multiple devices.
+- **Secure File Sharing:** Enabled secure file sharing and collaboration with controlled user permissions.
+- **Robust Security:** Ensured data security with SSL/TLS encryption and regular backups to safeguard against data loss.
+- **User Management:** Provided comprehensive user management features for effective collaboration and access control.
+- **Flexible Management:** Leveraged Docker and reverse proxy configurations for streamlined deployment and management.
+
+
+Integrating Nextcloud into my home lab has provided a powerful, self-hosted cloud storage solution. This setup allows for efficient file synchronization, secure sharing, and effective collaboration, with robust security measures and flexible management features tailored to personal and organizational needs.
+
+## Visual Overview
+
+![NextCloud Dashboard](https://nextcloud.gahomeserver.duckdns.org/s/zysNyCJfnAPE9gz/preview)
+
+
+# Collabora Integration into Home Lab
+
+## Project Overview
+
+This project involves integrating Collabora Online with Nextcloud in a home lab environment to provide a self-hosted office suite for online document editing and collaboration. The goal was to enhance Nextcloud with Collabora Online’s document editing capabilities, enabling seamless creation and modification of office documents directly from within the Nextcloud interface.
+
+## Objectives
+
+- **Document Editing:** Implement Collabora Online to enable online document editing directly within Nextcloud.
+- **Real-Time Collaboration:** Facilitate real-time collaboration on documents with multiple users.
+- **Seamless Integration:** Ensure smooth and effective integration between Collabora Online and Nextcloud.
+- **Security and Access Control:** Implement secure access to document editing features and manage user permissions effectively.
+
+## Tools Used
+
+- **Collabora Online:** An open-source office suite that integrates with Nextcloud to provide online document editing and collaboration.
+- **Nextcloud:** A self-hosted cloud storage platform providing file synchronization, sharing, and collaboration.
+- **Docker:** Deployed Collabora Online in a containerized environment for ease of management and isolation.
+
+## Actions Taken
+
+1. **Setup Collabora Online Environment:**
+   - **Installed Collabora Online:** Deployed Collabora Online using Docker, configuring it with the necessary settings for document editing and integration.
+   - **Initial Configuration:** Set up Collabora Online with proper authentication and connection settings to ensure it works seamlessly with Nextcloud.
+
+2. **Integrate with Nextcloud:**
+   - **Nextcloud App Installation:** Installed and configured the Collabora Online app in Nextcloud to enable document editing features directly within the Nextcloud interface.
+   - **Configuration:** Connected Nextcloud to the Collabora Online server, configuring the app settings to ensure smooth interaction and functionality.
+
+3. **User and Security Management:**
+   - **User Permissions:** Configured user permissions within Nextcloud to manage access to Collabora Online’s document editing features.
+   - **Security Measures:** Implemented security best practices, including strong authentication methods and secure access controls to protect documents and user data.
+
+4. **Continuous Improvement:**
+   - **Update and Maintenance:** Regularly updated Collabora Online and Nextcloud to incorporate new features, security patches, and performance enhancements.
+   - **Performance Monitoring:** Monitored system performance and made adjustments to optimize the document editing experience and overall server efficiency.
+
+## Results
+
+- **Enhanced Document Editing:** Successfully integrated Collabora Online with Nextcloud, providing powerful online document creation and editing capabilities.
+- **Real-Time Collaboration:** Enabled real-time collaboration on documents, improving productivity and teamwork.
+- **Seamless Integration:** Achieved a smooth and effective integration between Collabora Online and Nextcloud, offering a cohesive user experience.
+- **Secure Document Access:** Ensured secure access to document editing features with effective user permissions and security practices.
+- **Efficient Management:** Streamlined deployment and management with Docker, enhancing the overall efficiency of the setup.
+
+
+Integrating Collabora Online with Nextcloud has significantly enhanced the document editing and collaboration capabilities within my home lab. This setup provides a robust and secure office suite that integrates seamlessly with Nextcloud, offering a powerful tool for managing and editing documents in a self-hosted cloud environment.
+
+
+## Visual Overview
+
+![Collabora](https://nextcloud.gahomeserver.duckdns.org/s/jm2HeRaN97bfJKt/preview)
+
 

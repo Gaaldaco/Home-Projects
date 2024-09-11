@@ -11,11 +11,11 @@ I am deeply passionate about transitioning into cybersecurity, driven by a stron
 In this project, I have set up a homelab environment that includes:
 - [**Nessus**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#nessus)
 - [**Docker**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#docker)
-- [**Nextcloud**](
-- [**Jellyfin**](
-- [**Collabora Online**](
+- [**Nextcloud**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#nextcloud)
+- [**Jellyfin**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#jellyfin)
+- [**Collabora Online**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#collabora)
 - [**Caddy**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#reverse-proxy-ssl)
-- [**Portainer**](
+- [**Portainer**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#portainer)
 - [**TrueNAS**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#truenas-scale)
 
 ![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/2z2J4sER9EXKM5x/preview) <!-- Replace with your diagram -->

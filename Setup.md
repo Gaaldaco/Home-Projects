@@ -5,6 +5,7 @@
 - [Caddy Reverse Proxy](#reverse-proxy-ssl)
 - [Docker](#docker)
 - [Nessus](#nessus)
+- [TrueNas](#truenas)
 - [Wuzuh](#wazuh) currently in the works
 
 # OS

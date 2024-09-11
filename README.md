@@ -9,7 +9,7 @@ I am deeply passionate about transitioning into cybersecurity, driven by a stron
 ## Project Overview
 
 In this project, I have set up a homelab environment that includes:
-- [**Nessus**](
+- [**Nessus**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#nessus)
 - [**Docker**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#docker)
 - [**Nextcloud**](
 - [**Jellyfin**](

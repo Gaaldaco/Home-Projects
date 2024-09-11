@@ -16,7 +16,7 @@ In this project, I have set up a homelab environment that includes:
 - [**Collabora Online**](
 - [**Caddy**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#reverse-proxy-ssl)
 - [**Portainer**](
-- [**TrueNAS**](
+- [**TrueNAS**](https://github.com/Gaaldaco/Home-Projects/blob/main/Setup.md#truenas-scale)
 
 ![Homelab Diagram](https://nextcloud.gahomeserver.duckdns.org/s/2z2J4sER9EXKM5x/preview) <!-- Replace with your diagram -->
 

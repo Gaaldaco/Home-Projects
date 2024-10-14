@@ -458,4 +458,66 @@ Integrating Collabora Online with Nextcloud has significantly enhanced the docum
 
 ![Collabora](https://nextcloud.gahomeserver.duckdns.org/s/jm2HeRaN97bfJKt/preview)
 
+# Proxmox Setup
+
+## Project Overview
+
+This project focused on setting up and configuring Proxmox Virtual Environment (VE) in a home lab environment to manage multiple virtual machines (VMs) and containers. The goal was to create a scalable, efficient virtualization platform for running various services, such as Jellyfin, Nextcloud, and other self-hosted applications, while ensuring high availability and ease of management.
+
+## Objectives
+
+- **Virtualization Management:** Deploy and configure Proxmox VE to manage virtual machines and containers efficiently.
+- **Service Hosting:** Host multiple services, such as Jellyfin and Nextcloud, within VMs or containers using Proxmox.
+- **Resource Optimization:** Allocate system resources effectively to ensure optimal performance for all running services.
+- **High Availability:** Enable high availability features for critical services to minimize downtime.
+- **Backup and Restore:** Implement a robust backup strategy to protect VMs and data.
+
+## Tools Used
+
+- **Proxmox VE:** An open-source platform for virtualization management, supporting KVM for VMs and LXC for containers.
+- **Intel Arc GPU:** Used for GPU passthrough to Jellyfin VM, enhancing media streaming performance.
+- **ZFS Filesystem:** Leveraged for data redundancy and storage management within Proxmox.
+- **Alpine Linux:** Deployed as a base OS for lightweight VMs and containers, hosting various services.
+- **Docker:** Used within VMs or containers to run services in isolated environments.
+
+## Actions Taken
+
+1. **Proxmox VE Installation:**
+   - **Installed Proxmox VE:** Deployed Proxmox on a dedicated machine, configuring storage options, networking, and virtualization settings.
+   - **Initial Setup:** Configured basic settings, such as node information, networking interfaces, and user authentication for the Proxmox interface.
+
+2. **VM and Container Creation:**
+   - **VMs for Critical Services:** Created virtual machines to run services like Nextcloud and Jellyfin, with appropriate resource allocations for CPU, memory, and storage.
+   - **GPU Passthrough for Jellyfin:** Configured GPU passthrough to the Jellyfin VM using Intel Arc graphics to enhance media encoding and streaming performance.
+   - **LXC Containers for Lightweight Tasks:** Deployed lightweight containers for tasks that do not require full VMs, optimizing resource use.
+
+3. **Network Configuration:**
+   - **Custom Network Setup:** Configured custom network bridges to enable communication between VMs and the rest of the home network. Specific interfaces, like `enp6s18`, were configured for networking.
+   - **VLAN and MacVLAN:** Created and managed VLANs and macvlan networks to isolate services and improve security.
+
+4. **Storage and Backup Management:**
+   - **ZFS Configuration:** Configured the ZFS filesystem for data redundancy and performance, using a mirrored drive setup for enhanced data protection.
+   - **Backup Strategy:** Implemented regular VM backups using Proxmox’s built-in backup tool, ensuring recoverability in case of failure or corruption.
+
+5. **Service Hosting:**
+   - **Nextcloud and Jellyfin Deployment:** Deployed Nextcloud in a VM for file storage and Jellyfin in a VM for media streaming, with Docker containers running specific microservices as needed.
+   - **Resource Allocation:** Tuned CPU, memory, and disk resources for each VM and container to optimize performance without overcommitting the host machine.
+
+6. **Performance Monitoring and Optimization:**
+   - **Monitoring Tools:** Integrated Netdata on all VMs to track performance, resource usage, and overall system health.
+   - **Proxmox Metrics:** Used Proxmox’s built-in monitoring tools to observe VM resource usage and optimize performance, adjusting resource limits as necessary.
+
+## Results
+
+- **Efficient Virtualization:** Proxmox VE has become the central management platform for all VMs and containers, providing an efficient way to manage multiple services in my home lab.
+- **GPU-Accelerated Media Streaming:** The GPU passthrough setup for Jellyfin VM dramatically improved video encoding and playback performance, particularly for high-definition content.
+- **Optimized Resource Allocation:** Proxmox’s flexible resource management allowed for efficient allocation of CPU, memory, and storage across all VMs, ensuring smooth operation without overloading the system.
+- **High Availability and Backup:** Implemented a robust backup strategy with ZFS and Proxmox’s backup features, ensuring data protection and system recoverability.
+- **Scalable Setup:** The Proxmox environment can easily scale as new VMs or containers are needed, allowing for the expansion of services without significant infrastructure changes.
+
+Integrating Proxmox into my home lab has provided a powerful and flexible platform for managing virtualization and hosting various self-hosted services. With GPU passthrough, ZFS storage, and resource optimization, the system runs efficiently while supporting future growth.
+
+## Visual Overview
+
+![Proxmox](https://nextcloud.gahomeserver.duckdns.org/s/7m4HcRdNa98kCJu/preview)
 
